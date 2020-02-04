@@ -212,6 +212,7 @@ router.delete("/comment/:id/:comment_id", auth, async (req, res) => {
       comment => comment.id === req.params.comment_id
     );
 
+    console.log(post, comment);
     if (!comment) {
       return res.status(404).json({ msg: "Comment does not exists" });
     }

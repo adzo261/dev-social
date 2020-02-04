@@ -13,7 +13,7 @@ const Landing = ({ isAuthenticated }) => {
       <div className="dark-overlay">
         <div className="landing-inner">
           <h1 className="x-large">
-            <i class="fas fa-laptop-code"></i>DevSocial
+            <i className="fas fa-laptop-code"></i>DevSocial
           </h1>
           <p className="lead">
             Social network - of the developers, by the developers, for the
