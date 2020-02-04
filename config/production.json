@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://adzo261:Node123@ideapad-xboul.mongodb.net/test?retryWrites=true",
+  "jwtSecret": "supersecrettoken",
+  "githubClientId": "d",
+  "githubSecret": "f"
+}
